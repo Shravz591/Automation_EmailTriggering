@@ -18,9 +18,9 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class MailTrigger_Automation {
+public class MailTriggerTest {
 	@Test
-	public void mailTrigger() throws IOException, InterruptedException {
+	public void mailTriggerTest() throws IOException, InterruptedException {
 		String appUrl = "https://outlook.live.com/mail/0/";
 		WebDriverManager.chromedriver().setup();
 
